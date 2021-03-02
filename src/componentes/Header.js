@@ -5,7 +5,9 @@ import React from 'react';
 // no puede usar ref ni los metodos del ciclo de vida.
 const Header = () => {
     return (
-        <h1>Nombre del sitio</h1>
+        <header>
+            <h1>Tienda Virtual</h1>
+        </header>
     )
 }
 

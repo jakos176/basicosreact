@@ -1,9 +1,13 @@
-import React from 'react';
+import React, {Component} from 'react';
 
-const Productos = () => {
-    return (
-        <h2>Listado de productos</h2>
-    )
+class Producto extends Component {
+    render() {
+        return (
+            <div>
+                <p> El {this.props.producto.nombre} tiene un precio de {this.props.producto.precio}</p>
+            </div>
+        );
+    }
 }
 
-export default Productos;
+export default Producto;

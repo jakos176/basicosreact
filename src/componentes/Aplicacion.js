@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Productos from "./Producto";
+import Productos from "./Productos";
 import Header from "./Header";
 import Footer from "./Footer";
 
